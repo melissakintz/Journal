@@ -7,21 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1E6C14C2A6FB731000C3DBB /* JournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6C14B2A6FB731000C3DBB /* JournalApp.swift */; };
-		A1E6C14E2A6FB731000C3DBB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6C14D2A6FB731000C3DBB /* Item.swift */; };
-		A1E6C1502A6FB731000C3DBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6C14F2A6FB731000C3DBB /* ContentView.swift */; };
 		A1E6C1522A6FB733000C3DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E6C1512A6FB733000C3DBB /* Assets.xcassets */; };
 		A1E6C1562A6FB733000C3DBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E6C1552A6FB733000C3DBB /* Preview Assets.xcassets */; };
+		A1E6C1612A6FB756000C3DBB /* LockedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6C15C2A6FB756000C3DBB /* LockedView.swift */; };
+		A1E6C1622A6FB756000C3DBB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6C15D2A6FB756000C3DBB /* MapView.swift */; };
+		A1E6C1642A6FB756000C3DBB /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6C15F2A6FB756000C3DBB /* DrawingView.swift */; };
+		A1E6C1652A6FB756000C3DBB /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6C1602A6FB756000C3DBB /* EntryView.swift */; };
+		A1E6C16E2A6FB78E000C3DBB /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6C16C2A6FB78E000C3DBB /* SpeechRecognizer.swift */; };
+		A1E6C16F2A6FB78E000C3DBB /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6C16A2A6FB78E000C3DBB /* LocationManager.swift */; };
+		A1E6C1702A6FB78E000C3DBB /* SecurityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6C16D2A6FB78E000C3DBB /* SecurityController.swift */; };
+		A1E6C1712A6FB78E000C3DBB /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6C16B2A6FB78E000C3DBB /* DrawingViewController.swift */; };
+		A1E6C1742A6FB7A3000C3DBB /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6C1732A6FB7A3000C3DBB /* Entry.swift */; };
+		A1E6C1772A6FB7B1000C3DBB /* JournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E6C1762A6FB7B1000C3DBB /* JournalApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1E6C1482A6FB731000C3DBB /* Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Journal.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1E6C14B2A6FB731000C3DBB /* JournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalApp.swift; sourceTree = "<group>"; };
-		A1E6C14D2A6FB731000C3DBB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		A1E6C14F2A6FB731000C3DBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1E6C1512A6FB733000C3DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A1E6C1532A6FB733000C3DBB /* Journal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Journal.entitlements; sourceTree = "<group>"; };
 		A1E6C1552A6FB733000C3DBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1E6C15C2A6FB756000C3DBB /* LockedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockedView.swift; sourceTree = "<group>"; };
+		A1E6C15D2A6FB756000C3DBB /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A1E6C15F2A6FB756000C3DBB /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		A1E6C1602A6FB756000C3DBB /* EntryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		A1E6C1692A6FB779000C3DBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1E6C16A2A6FB78E000C3DBB /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A1E6C16B2A6FB78E000C3DBB /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
+		A1E6C16C2A6FB78E000C3DBB /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		A1E6C16D2A6FB78E000C3DBB /* SecurityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityController.swift; sourceTree = "<group>"; };
+		A1E6C1732A6FB7A3000C3DBB /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		A1E6C1762A6FB7B1000C3DBB /* JournalApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalApp.swift; sourceTree = "<group>"; };
+		A1E6C17A2A6FB7D4000C3DBB /* Journal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Journal.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +69,12 @@
 		A1E6C14A2A6FB731000C3DBB /* Journal */ = {
 			isa = PBXGroup;
 			children = (
-				A1E6C14B2A6FB731000C3DBB /* JournalApp.swift */,
-				A1E6C14D2A6FB731000C3DBB /* Item.swift */,
-				A1E6C14F2A6FB731000C3DBB /* ContentView.swift */,
+				A1E6C1762A6FB7B1000C3DBB /* JournalApp.swift */,
+				A1E6C1752A6FB7A6000C3DBB /* Models */,
+				A1E6C1722A6FB797000C3DBB /* Helpers */,
+				A1E6C1682A6FB779000C3DBB /* Views */,
 				A1E6C1512A6FB733000C3DBB /* Assets.xcassets */,
-				A1E6C1532A6FB733000C3DBB /* Journal.entitlements */,
+				A1E6C17A2A6FB7D4000C3DBB /* Journal.entitlements */,
 				A1E6C1542A6FB733000C3DBB /* Preview Content */,
 			);
 			path = Journal;
@@ -70,6 +86,37 @@
 				A1E6C1552A6FB733000C3DBB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1E6C1682A6FB779000C3DBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1E6C1692A6FB779000C3DBB /* ContentView.swift */,
+				A1E6C15F2A6FB756000C3DBB /* DrawingView.swift */,
+				A1E6C1602A6FB756000C3DBB /* EntryView.swift */,
+				A1E6C15C2A6FB756000C3DBB /* LockedView.swift */,
+				A1E6C15D2A6FB756000C3DBB /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1E6C1722A6FB797000C3DBB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A1E6C16B2A6FB78E000C3DBB /* DrawingViewController.swift */,
+				A1E6C16A2A6FB78E000C3DBB /* LocationManager.swift */,
+				A1E6C16D2A6FB78E000C3DBB /* SecurityController.swift */,
+				A1E6C16C2A6FB78E000C3DBB /* SpeechRecognizer.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A1E6C1752A6FB7A6000C3DBB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1E6C1732A6FB7A3000C3DBB /* Entry.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1E6C14E2A6FB731000C3DBB /* Item.swift in Sources */,
-				A1E6C14C2A6FB731000C3DBB /* JournalApp.swift in Sources */,
-				A1E6C1502A6FB731000C3DBB /* ContentView.swift in Sources */,
+				A1E6C1742A6FB7A3000C3DBB /* Entry.swift in Sources */,
+				A1E6C1642A6FB756000C3DBB /* DrawingView.swift in Sources */,
+				A1E6C1612A6FB756000C3DBB /* LockedView.swift in Sources */,
+				A1E6C16F2A6FB78E000C3DBB /* LocationManager.swift in Sources */,
+				A1E6C1712A6FB78E000C3DBB /* DrawingViewController.swift in Sources */,
+				A1E6C1622A6FB756000C3DBB /* MapView.swift in Sources */,
+				A1E6C1772A6FB7B1000C3DBB /* JournalApp.swift in Sources */,
+				A1E6C1652A6FB756000C3DBB /* EntryView.swift in Sources */,
+				A1E6C16E2A6FB78E000C3DBB /* SpeechRecognizer.swift in Sources */,
+				A1E6C1702A6FB78E000C3DBB /* SecurityController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
